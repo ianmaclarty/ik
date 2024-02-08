@@ -17,10 +17,10 @@ A set of printable thumb keycaps is also included in this repo.
 - 52x Gateron KS-33 switches
 - 2x Waveshare RP2040-Zero MCUs
 - 52x 1N4148W diodes (SOD123F)
-- 2x SMD TRD Jack (SJ-3524-SMT-TR)
-- 10x M2 3mm (wide) x 3.5mm (high) heat set inserts
+- 2x SMD TRS Jack (SJ-3524-SMT-TR)
+- 10x M2 3mm (height) x 3.5mm (diameter) heat set inserts
 - 10x M2 5mm screws
-- 8x 6mm x 2mm bumpons
+- 8x 6mm (diameter) x 2mm (height) bumpons
 
 ## Build Guide
 
@@ -43,7 +43,7 @@ I printed mine using an online service and selected 100% infill.
 The firmware can be found [here](https://github.com/ianmaclarty/qmk_firmware/tree/master/keyboards/handwired/ianmaclarty/ik1_2). 
 To build it, run the command `qmk compile -kb handwired/ianmaclarty/ik1_2 -km default` from the qmk root directory. 
 You can flash it by holding down the boot button while pressing the reset button on the MCU.
-It should then show up as a drive on your computer which you can drag the `handwired_ianmaclarty_ik1_2_default.uf2` fileonto.
+It should then show up as a drive on your computer which you can drag the `handwired_ianmaclarty_ik1_2_default.uf2` file onto.
 
 ### Solder the MCU, TRS jack and diodes
 
@@ -53,11 +53,11 @@ For the MCU, the way I did it was to first apply a small blob of solder to one o
 then slide the MCU into position while keeping the solder wet. Once it was in the 
 right position I soldered the remaining pads.
 
-Make sure the diodes are correctly oriented.
+Make sure the diodes are correctly oriented and inside their designated rectangles (otherwise they will interfere with the case).
 
 ![Components soldered](1.2/photos/pcb_soldered.png)
 
-### Solder switches
+### Solder the switches
 
 Position the PCB on the top half of the case and push through 4 switches at the corners to support it.
 
@@ -75,7 +75,7 @@ Once the PCB is secured with the corner switches, proceed to solder the remainin
 
 ![Switches soldered](1.2/photos/all_switches_soldered.png)
 
-### Insert heat set inserts
+### Insert the heat set inserts
 
 I push them in with a soldering iron set to 200C. Make sure they're flush with the case.
 
@@ -88,3 +88,8 @@ Screw the case together, add keycaps and you're done!
 ### Thumb keycaps (optional)
 
 I designed a set of thumb keycaps to go with the board. You can find them [here](Keycaps/). I recommend printing these in resin.
+
+## Known issues
+
+The the screw points aren't close enough to the edge of the case and/or there aren't enough of them, resulting
+in a thin gap between the top and bottom of the case in some places.
