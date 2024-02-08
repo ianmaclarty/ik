@@ -13,11 +13,11 @@ A set of printable thumb keycaps is also included in this repo.
 ## Bill of Materials
 
 - Left and right [PCBs](1.2/gerbers) (1.2mm thickness)
-- 3D Printed [Case](1.2/stls) (4 pieces)
+- 3D printed [case](1.2/stls) (4 pieces)
 - 52x Gateron KS-33 switches
 - 2x Waveshare RP2040-Zero MCUs
 - 52x 1N4148W diodes (SOD123F)
-- 2x SMD TRS Jack (SJ-3524-SMT-TR)
+- 2x SMD TRS jack (SJ-3524-SMT-TR)
 - 10x M2 3mm (height) x 3.5mm (diameter) heat set inserts
 - 10x M2 5mm screws
 - 8x 6mm (diameter) x 2mm (height) bumpons
