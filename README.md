@@ -77,7 +77,7 @@ Once the PCB is secured with the corner switches, proceed to solder the remainin
 
 ### Insert the heat set inserts
 
-I push them in with a soldering iron set to 200C. Make sure they're flush with the case.
+I push them in with a soldering iron set to 200C. Do it on a flat surface so you don't get a bulge on the bottom of the case from the melted plastic. Make sure the tops are flush with the case.
 
 ![Switches soldered](1.2/photos/inserts_inserted.png)
 
