@@ -83,7 +83,7 @@ I push them in with a soldering iron set to 200C. Make sure they're flush with t
 
 ### Screw the case together
 
-Screw the case together, add keycaps and you're done!
+Screw the case together, apply bumpons, add keycaps and you're done!
 
 ### Thumb keycaps (optional)
 
@@ -91,5 +91,5 @@ I designed a set of thumb keycaps to go with the board. You can find them [here]
 
 ## Known issues
 
-The the screw points aren't close enough to the edge of the case and/or there aren't enough of them, resulting
+The screw points aren't close enough to the edge of the case and/or there aren't enough of them, resulting
 in a thin gap between the top and bottom of the case in some places.
